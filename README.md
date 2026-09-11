@@ -56,7 +56,7 @@ All tests live in `lib/testing/song_test.py` and cover instance attributes, the 
 ## Screenshot
 
 <!-- Add a screenshot of your passing test output or CodeGrade result below -->
-![Completed work](./screenshot.png)
+![Completed work](./image.png)
 
 ## Features
 
