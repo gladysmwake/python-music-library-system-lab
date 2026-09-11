@@ -63,3 +63,16 @@ class Song:
             cls.artist_count[artist] += 1
         else:
             cls.artist_count[artist] = 1
+
+
+if __name__ == "__main__":
+    s1 = Song("Level Up", "Beyonce", "Pop")
+    s2 = Song("Sorry", "Beyonce", "Pop")
+    s3 = Song("99 Problems", "Jay-Z", "Rap")
+
+    print("--- Music Library Stats ---")
+    print(f"Total songs created: {Song.count}")
+    print(f"Unique genres: {Song.genres}")
+    print(f"Unique artists: {Song.artists}")
+    print(f"Songs per genre: {Song.genre_count}")
+    print(f"Songs per artist: {Song.artist_count}")
